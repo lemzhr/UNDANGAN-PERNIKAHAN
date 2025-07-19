@@ -624,6 +624,11 @@
             .footer-company p {
                 font-size: clamp(0.8rem, 2vw, 0.9rem);
             }
+            #hero {
+                background-attachment: scroll;
+                /* Fixed background can cause issues on mobile */
+            }
+
         }
 
         /* --- Safari and Android Web Fixes --- */
